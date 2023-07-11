@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300;400;600&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: var(--josefinSans);
+}
+
+:root {
+  --josefinSans: 'Josefin Sans', sans-serif;
+
+  /* Primary Color */
+  --desaturatedRed: hsl(0, 36%, 70%);
+  --softRed: hsl(0, 93%, 68%);
+
+  /* Neutral Color*/
+  --darkGrayishRed: hsl(0, 6%, 24%);
+
+  /* Gradients Color*/
+  --grad1LinearFrom: hsl(0, 0%, 100%);
+  --grad1LinearTo: hsl(0, 100%, 98%);
+  --grad2LinearFrom: hsl(0, 80%, 86%);
+  --grad2LinearToo: hsl(0, 74%, 74%);
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center8;
+  width: 100%;
+  height: 100%;
+}
+
+section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+}
+
+section .back-img {
+  width: 40%;
+  height: 100vh;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-image: url('../images/hero-desktop.jpg');
+  float: right;
+  position: fixed;
+  transform: translate(500px, 348px);
+}
