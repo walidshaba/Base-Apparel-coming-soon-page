@@ -59,12 +59,13 @@ section .first-side {
 .first-side .group {
   display: flex;
   flex-direction: column;
-  width: 400px;
+  width: 420px;
   height: 60%;
   justify-content: flex-start;
+  position: relative;
 }
 .first-side .group > * {
-  margin-bottom: 40px;
+  margin-bottom: 20px;
 }
 .group h1 {
   font-size: 70px;
@@ -78,4 +79,21 @@ section .first-side {
 .group h1 span {
   font-weight: 700;
   color: var(--darkGrayishRed);
+}
+
+.group p {
+  font-size: 16px;
+  line-height: 26px;
+  color: var(--desaturatedRed);
+}
+
+.group form {
+  display: flex;
+  width: 420px;
+  flex-direction: row;
+  justify-content: center;
+}
+
+form input {
+  width: 100%;
 }
