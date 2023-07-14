@@ -113,6 +113,19 @@ form input::after {
 ::placeholder {
   font-size: 15px;
 }
+form .bastard {
+  font-size: 14px;
+  position: absolute;
+  transform: translate(30px, 60px);
+  color: var(--grad2LinearTo);
+  font-weight: 700;
+  opacity: 0;
+  transition: all ease-in-out 0.5s;
+}
+
+form .bastard.active {
+  opacity: 1;
+}
 
 form .btn-grp {
   width: 150px;
