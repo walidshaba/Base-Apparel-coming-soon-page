@@ -59,7 +59,7 @@ section .first-side {
 .first-side .group {
   display: flex;
   flex-direction: column;
-  width: 420px;
+  width: 430px;
   height: 60%;
   justify-content: flex-start;
   position: relative;
@@ -89,7 +89,7 @@ section .first-side {
 
 .group form {
   display: flex;
-  width: 420px;
+  width: 430px;
   flex-direction: row;
   justify-content: center;
 }
@@ -99,7 +99,8 @@ form input {
   height: 50px;
   border-radius: 50px;
   padding: 0 30px;
-  border: none;
+  border: 0.3px solid var(--darkGrayishRed);
+  border-style: double;
 }
 ::placeholder {
   font-size: 15px;
@@ -107,7 +108,7 @@ form input {
 
 form button {
   position: absolute;
-  transform: translate(180px, 00px);
+  transform: translate(165px, 00px);
   border-radius: 50px;
   width: 100px;
   height: 50px;
