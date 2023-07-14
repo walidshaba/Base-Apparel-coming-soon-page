@@ -21,7 +21,7 @@
   --grad1LinearFrom: hsl(0, 0%, 100%);
   --grad1LinearTo: hsl(0, 100%, 98%);
   --grad2LinearFrom: hsl(0, 80%, 86%);
-  --grad2LinearToo: hsl(0, 74%, 74%);
+  --grad2LinearTo: hsl(0, 74%, 74%);
 }
 
 body {
@@ -96,4 +96,25 @@ section .first-side {
 
 form input {
   width: 100%;
+  height: 50px;
+  border-radius: 50px;
+  padding: 0 30px;
+  border: none;
+}
+::placeholder {
+  font-size: 15px;
+}
+
+form button {
+  position: absolute;
+  transform: translate(180px, 00px);
+  border-radius: 50px;
+  width: 100px;
+  height: 50px;
+  border: none;
+  background-image: linear-gradient(
+    135deg,
+    var(--grad2LinearFrom),
+    var(--grad2LinearTo)
+  );
 }
