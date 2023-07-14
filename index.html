@@ -4,7 +4,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="assets/styles/main.css" />
-    <script src="assets/scripts/main.js"></script>
+    <script src="assets/scripts/main.js" defer></script>
     <title>Frontend Mentor | Base Apparel coming soon page</title>
   </head>
   <body>
@@ -21,10 +21,15 @@
             and our launch deals.
           </p>
           <form action="" id="form">
-            <input type="email" placeholder="Email Address" />
-            <button type="submit">
-              <img src="./assets/images/icon-arrow.svg" alt="" />
-            </button>
+            <input type="email" placeholder="Email Address" id="email" />
+            <div class="btn-grp">
+              <div class="error" id="error">
+                <img src="assets/images/icon-error.svg" alt="" />
+              </div>
+              <button type="submit">
+                <img src="./assets/images/icon-arrow.svg" alt="" />
+              </button>
+            </div>
           </form>
         </div>
       </div>
