@@ -13,6 +13,9 @@
         <div class="logo">
           <img src="assets/images/logo.svg" alt="logo" />
         </div>
+        <div class="bgd-img">
+          <div class="img"></div>
+        </div>
         <div class="group">
           <h1>We're <span>coming soon</span></h1>
           <p>
@@ -20,8 +23,13 @@
             store. Add your email below to stay up-to-date with announcements
             and our launch deals.
           </p>
-          <form action="" id="form">
-            <input type="email" placeholder="Email Address" id="email" />
+          <form action="" id="form" novalidate>
+            <input
+              type="email"
+              placeholder="Email Address"
+              id="email"
+              required
+            />
             <p class="bastard">Please provide a valid email</p>
             <div class="btn-grp">
               <div class="error" id="error">
