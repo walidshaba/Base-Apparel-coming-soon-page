@@ -20,8 +20,8 @@ This is a solution to the [Base Apparel coming soon page challenge on Frontend M
 
 ### Links
 
-- Solution URL: [Solution URl](https://github.com/walidshaba/Base-Apparel-coming-soon-page.git)
-- Live Site URL: [Live URL] (https://base-apparel-coming-soon-page-self.vercel.app/)
+- Solution URL: [Solution URL](https://github.com/walidshaba/Base-Apparel-coming-soon-page.git)
+- Live Site URL: [Live_URL] (https://base-apparel-coming-soon-page-self.vercel.app)
 
 ## My process
 
